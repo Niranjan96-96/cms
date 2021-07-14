@@ -129,7 +129,7 @@
       
   }
   .node-img img{
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     margin-left: 50px;
@@ -326,9 +326,28 @@
 }
 .header1 p{
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     margin-top: 5%;
 }
+.header2{
+  background-color: black;
+  color:white ;
+  text-align: center;
+
+}
+.header2 h3{
+  font-size: 30px;
+  padding-top: 5%;
+  
+}
+.header2 p{
+  text-align: center;
+  font-size: 20px;
+  padding: 5%;
+  color: gray;
+}
+
+
 .header1 button{
     background-color: blue;
     border: none;
