@@ -2,6 +2,59 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+ 
+    }
+    .content li a{
+      text-decoration: none;
+      color: grey;
+      font-size: 1rem;
+     padding: 0.2rem;
+    }
+    .toggle-button{
+      position: absolute;
+      top: .75rem;
+      right: 1rem;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+    }
+    .toggle-button .bar{
+      height: 3px;
+      width: 100px;
+      background-color: white;
+      border-radius: 10px;
+    }
+    
+    @media(max-width:600px) {
+      .toggle-button{
+        display: flex;
+      }
+      .content{
+        display: none;
+        width: 100%;
+      }
+      .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .content ul{
+        width: 100%;
+        flex-direction: column;
+      }
+      .content li{
+        text-align: center;
+
+      }
+      .content li a{
+        padding: .5rem 1rem;
+
+      }
+      .content.active{
+        display: flex;
+      }
+      
     }
    
     .li{
@@ -14,13 +67,16 @@
     display:inline-block;
     padding-left: 70px;
     text-decoration: none;
-    color: white;
+    color: rgb(114, 100, 100);
     margin-bottom: 0.5rem;
     flex-direction: row;
     justify-content:space-between;
     margin-top: 5%;
 }
+
+
 .content  ul{
+  margin-top: 1%;
     flex-direction:row;
     color:grey;
     display: flex;
@@ -47,6 +103,7 @@
     padding-left: 50px;
     padding: 0px 100px 0px 50px;
     display: inline-block;
+    margin-bottom: 25%;
     
 }
 .node7-text p{
@@ -110,10 +167,7 @@
       width:50%;
       
   }
-  .node-img{
-    width:50%;
-    
-}
+ 
   .node5-text{
     margin-top: 5%;
   }
@@ -129,10 +183,10 @@
       
   }
   .node-img img{
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
-    margin-left: 50px;
+    margin-left: 5px;
     
 }
   .node3-img img{
@@ -165,6 +219,11 @@
     
 }
 
+.node-text p{
+  width:100%;
+  padding: 0px 100px 0px 50px;
+  
+}
 
   .node1-text{
       width:50%;
@@ -487,6 +546,7 @@ h1{
     padding-bottom: 20px;
 }
 h2{
+  font-size: 2rem;
     color:orangered;
     margin-top: 50px;
     margin-left: 30px;
