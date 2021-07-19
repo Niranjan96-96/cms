@@ -543,8 +543,8 @@ h1{
     text-align: center;
     color:white;
     height: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 h2{
   font-size: 2rem;
@@ -572,6 +572,7 @@ font-weight: bold;
 }
   
   @media (max-width:600px){
+    
     .node{
       flex-direction: column;
     }
