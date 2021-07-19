@@ -4,9 +4,15 @@
     box-sizing:border-box;
  
     }
+    html,body {
+      margin:0;
+      padding:0;
+      overflow-x:hidden;
+      }
+      
     .content li a{
       text-decoration: none;
-      color: grey;
+      color: rgb(36, 36, 36);
       font-size: 1rem;
      padding: 0.2rem;
     }
@@ -24,7 +30,7 @@
     .toggle-button .bar{
       height: 2px;
       width: 50px;
-      background-color:gray;
+      background-color:#515e72;
       border-radius: 10px;
     }
     
@@ -58,7 +64,7 @@
       
     }
    
-    .li{
+.li{
       color:aliceblue;
     }
     .sanity{
@@ -68,7 +74,7 @@
     display:inline-block;
     padding-left: 70px;
     text-decoration: none;
-    color: rgb(114, 100, 100);
+    color: #515e72;
     margin-bottom: 0.5rem;
     flex-direction: row;
     justify-content:space-between;
@@ -79,7 +85,7 @@
 .content  ul{
   margin-top: 1%;
     flex-direction:row;
-    color:grey;
+    color:#515e72;
     display: flex;
     flex-wrap:wrap;
     text-decoration: none;
@@ -96,33 +102,103 @@
   margin-top: 4%;
   height: 5%;
 }
-.node-text p{
-  margin-top: 5%;
-    font-size: 2rem;
-    color: grey;
+.node1-text h3{
+  font-size: bold;
+  font-weight: 700;
+  color: black;
+    font-size: 25px;
     line-height: 150%;
-    padding-left: 50px;
-    padding: 0px 100px 0px 50px;
-    display: inline-block;
-    margin-bottom: 25%;
-    
+    margin-left: 30px;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
+.node1-text p{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 30px;
+}
+.node-text p{
+    margin-top: 5%;
+    color:#515e72;
+    height: 10%;
+    display:flex;
+    margin-bottom: 25%;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 700;
+}
+.node5-text ul li a{
+  text-decoration: none;
+}
+.node5-text a{
+  color: blue;
+}
+.node4-text p{
+  
+  margin-top: 5%;
+  color:#515e72;
+  height: 5%;
+  display:flex;
+  margin-bottom: 25%;
+  font-size: calc(1rem / 16 * 20);
+  line-height: calc(32 / 20);
+  font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-weight: 700;
+}
+.node4-text h3{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
 .node7-text p{
     font-size: 2rem;
-    color: grey;
+    color: #515e72;
     padding-left: 50px;
+    font-weight: 700;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
+
 .node7-text h3{
   padding-top: 10%;
   margin-bottom: 5%;
+  font-size: calc(1rem / 16 * 39);
+  line-height: calc(44 / 39);
+
 }
 
 .node3-text p{
     font-size: 2rem;
-    color: grey;
+    color: #515e72;
     padding-left: 50px;
+    font-weight: 700;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
-
+.node6-text ul{
+  font-size: 2rem;
+    color: #515e72;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.node5-text ul{
+  margin-top: 10%;
+ 
+font-size: 2rem;
+    color: #515e72;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
 .node{
     display: flex; 
     width: 100%;
@@ -137,7 +213,7 @@
   .node5{
     display: flex; 
     width: 100%;
-    margin-top: 10%;
+    margin-top: 5px;
   
   }
   .node3{
@@ -187,7 +263,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    margin-left: 5px;
+    
     
 }
   .node3-img img{
@@ -198,12 +274,12 @@
 .node4-img img{
     width: 100%;
     height: 100%;
-    
+    margin-left: 20px;
     
 }
 .node6-img img{
     width: 100%;
-    height: 50%;
+    height: 80%;
     padding-left: 50px;
     
 }
@@ -221,7 +297,7 @@
 }
 
 .node-text p{
-  width:100%;
+  width:150%;
   padding: 0px 100px 0px 50px;
   
 }
@@ -242,45 +318,68 @@
     
 }
   .node1-text p{
-      color: gray;
+      color: #515e72;;
       font-size: 25px;
       line-height: 150%;
   }
   .node4-text p{
-    color: gray;
+    color: #515e72;;
     font-size: 25px;
     line-height: 150%;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 .node6-text p{
-    color: gray;
+    color:#515e72;;
     font-size: 25px;
     line-height: 150%;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.node1-text {
+  margin-left: 70px;
+}
+.node1-text p{
+ 
+  font-weight: 500;
+  font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 .node5-text p{
-    color: gray;
+    color: #515e72;
     font-size: 25px;
     line-height: 150%;
     margin-left: 50px;
+    font-size: calc(1rem / 16 * 20);
+    line-height: calc(32 / 20);
+    font-family: Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
   .node3-text p{
-    color: gray;
+    color: #515e72;;
     font-size: 25px;
     line-height: 150%;
 }
 .node7-text p{
-    color: gray;
+    color: #515e72;;
     font-size: 25px;
     line-height: 150%;
 }
   .node-text h3{
     font-size:  3rem; 
     margin-left: 50px;
-    margin-top: 15%;
+    margin-top: 10%;
+    font-weight: 700;
+    font-family: Larsseit,Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   }
  
   .node5-text h3{
     font-size:  2rem; 
     margin-left: 50px;
+    font-weight: 700;
+    font-family: Larsseit,Inter var,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
   }
   .node7-text h3{
     font-size:  2rem; 
@@ -317,7 +416,9 @@
     width: 80%;
     height: 100%;
     padding-top: 5%;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+    margin-left: 10%;
+    
 
   }
   .node7-img{
@@ -328,6 +429,7 @@
   height: 5%;
   padding-top: 5%;
   margin-bottom: 10%;
+  
 
 
 }
@@ -338,7 +440,8 @@
   width: 80%;
   height: 100%;
   padding-top: 5%;
-  margin-bottom: 10%
+  margin-bottom: 10%;
+  
 
 }
   .node3-img{
@@ -404,7 +507,7 @@
   text-align: center;
   font-size: 20px;
   padding: 5%;
-  color: gray;
+  color: #515e72;;
 }
 
 
@@ -433,7 +536,7 @@
 }
 .logo h4{
     text-align: center;
-    color: grey;
+    color:#515e72;;
     margin-bottom: 10%;
 }
 .logo, .logo1{
@@ -465,7 +568,7 @@
  .footer{
      width: 100%;
      height: 40vh;
-     color: grey;
+     color: #515e72;;
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
@@ -513,7 +616,7 @@
  }
  .footer-email-btn:hover{
      cursor: pointer;
-     background-color: grey;
+     background-color: #515e72;;
      transition: all 0.4s ease-out;
  }
  .footer-email-form{
@@ -645,7 +748,7 @@ width: 100%;
   margin-bottom: 5%;
 }
 .rfooter p{
-  color: gray;
+  color: #515e72;;
   padding: 1%;
   
 }
